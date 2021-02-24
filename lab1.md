@@ -31,15 +31,15 @@
   
   ---
   
-  Файл.система   Размер Использовано  Дост Использовано% Cмонтировано в
-  tmpfs            1,7G         2,2M  1,7G            1% /run
-  /dev/sdb3        210G          13G  187G            7% /
-  tmpfs            8,4G          39M  8,4G            1% /dev/shm
-  tmpfs            5,3M         4,1k  5,3M            1% /run/lock
-  tmpfs            4,2M            0  4,2M            0% /sys/fs/cgroup
-  /dev/sda1        101M          35M   67M           35% /boot/efi
-  tmpfs            1,7G         132k  1,7G            1% /run/user/1000
-  /dev/sdc1        121G          44G   78G           37% /media/shinen/flash
+  Файл.система |  Размер | Использовано | Дост | Использовано% | Cмонтировано в
+  tmpfs        |    1,7G |        2,2M | 1,7G  |          1% | /run
+  /dev/sdb3    |    210G |         13G | 187G  |          7% | /
+  tmpfs        |    8,4G |         39M | 8,4G  |          1% | /dev/shm
+  tmpfs        |    5,3M |        4,1k | 5,3M  |          1% | /run/lock
+  tmpfs        |    4,2M |           0 | 4,2M  |          0% | /sys/fs/cgroup
+  /dev/sda1    |    101M |         35M |  67M  |         35% | /boot/efi
+  tmpfs        |    1,7G |        132k | 1,7G  |          1% | /run/user/1000
+  /dev/sdc1    |    121G |         44G |  78G  |         37% | /media/shinen/flash
  
   ---
  
