@@ -24,3 +24,6 @@
    Бита SUID  
 13 Какая командf приостановит процессы с именем tar?  
    killall -s STOP tar  
+  
+  
+![screenshot](https://github.com/Shinen99/Linux_administration/blob/lab4/fork_result.png)
