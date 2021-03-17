@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import threading
 from os import fork, waitpid
 from argparse import ArgumentParser
