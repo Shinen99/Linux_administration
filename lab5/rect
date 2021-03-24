@@ -9,7 +9,6 @@ if [ $# -ne 4 ]
     echo "Invalid args"
     exit 1
 fi
-
 if [ $fullness -eq 1 ]
   then
     for (( i = 1; i <= $height; i++))
