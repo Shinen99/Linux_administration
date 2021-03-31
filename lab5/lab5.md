@@ -45,5 +45,5 @@ fi
   
 
 Практическое задание. Работа с tmux  
-Создаем сессию в tmux. Разделяем экран с помощью ctrl+b + " горизотально и ctrl+b + % - вертикально. Для управления мышью добавляем в tmux.conf "set -g mouse on". Для выхода ctrl+b + d
-![tmux] (https://github.com/Shinen99/Linux_administration/blob/lab5/lab5/tmux.png)
+Создаем сессию в tmux. Разделяем экран с помощью ctrl+b + " горизотально и ctrl+b + % - вертикально. Для управления мышью добавляем в tmux.conf "set -g mouse on". Для выхода ctrl+b + d  
+![tmux](https://github.com/Shinen99/Linux_administration/blob/lab5/lab5/tmux.png)
