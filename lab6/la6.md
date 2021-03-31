@@ -22,5 +22,12 @@
   :Xx - удалит X символов  
 Практика:  
 1 продемонстрировать работу at по запуску задачи записи в файл произвольной строки  
+  ![at](https://github.com/Shinen99/Linux_administration/blob/lab6/lab6/at.png)  
 2 продемонстрировать работу cron по запуску задачи записи в файл произвольной строки  
+  ![croncon](https://github.com/Shinen99/Linux_administration/blob/lab6/lab6/crone.png)  
+  ![cron](https://github.com/Shinen99/Linux_administration/blob/lab6/lab6/cron.png)  
 3 примонтировать usb flash и отмонтировать  
+  mkdir /mnt/flash  
+  sudo mount /dev/<devname> /mnt/flash  
+  cd /mnt/flash  
+  sudo umount /mnt/flash  
