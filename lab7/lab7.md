@@ -38,5 +38,40 @@
  - Type 0 — Echo Reply
  - Type 8 — Echo
 
-
 Практика
+1. Произвести настройку IP адреса сетевого интерфейса eth0 через конфиг и на лету
+ - Через конфиг:
+
+  ![interfaces](1.interfaces.png)  
+  systemctl restart networking
+ - На лету:  
+  ifconfig eth0 192.168.0.2
+
+2. Остановить и запустить сетевой интерфейс eth0  
+  ifconfig eth0 down  
+  ifconfig eth0 up  
+3. Произвести смену аппаратного (MAC) адреса сетевого интерфейса eth0;
+
+ ![mac](3.ethMAC.png)
+
+4. Показать таблицу сетевых маршрутов. Установить маршрут по умолчанию;
+
+ ![table](4.table.png)
+
+5. Получить настройки IP от DHCP сервера;
+
+ ![interfaces](5.1.DHCP.png)
+
+ ![dhcp](5.2.DHCP.png)
+
+6. проверить пропускную способность между виртуальными машинами
+
+ ![ipref](6.Test.png)
+
+7. настроить связь между виртуальными машинами через vlan 15
+
+ ![interfaces](7.1.Vlan15.png)
+
+ ![interfaces2](7.2Vlan15.png)
+
+ ![test](7.3.Vlan15.png)
